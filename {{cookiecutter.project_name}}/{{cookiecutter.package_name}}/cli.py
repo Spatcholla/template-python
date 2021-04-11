@@ -3,7 +3,7 @@
 import click
 import log
 
-from . import utils
+from {{cookiecutter.package_name}} import utils
 
 
 @click.command()

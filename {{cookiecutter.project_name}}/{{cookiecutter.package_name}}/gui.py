@@ -5,7 +5,7 @@ from tkinter.ttk import Frame, Button, Entry, Label, Separator
 
 import log
 
-from . import utils
+from {{cookiecutter.package_name}} import utils
 
 
 class Application:
