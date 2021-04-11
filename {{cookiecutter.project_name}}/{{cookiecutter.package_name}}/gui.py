@@ -1,7 +1,7 @@
 """A sample GUI."""
 
-from tkinter import *
-from tkinter.ttk import *  # type: ignore
+from tkinter import Tk, StringVar, BOTH, NSEW
+from tkinter.ttk import Frame, Button, Entry, Label, Separator
 
 import log
 
@@ -91,7 +91,7 @@ class Application:
         log.debug("Event: %s", event)
         meters = utils.feet_to_meters(self.feet.get())
         if meters is not None:
-            self.meters.set(meters)
+            self.meters.set(str(meters))
 
 
 def main():
