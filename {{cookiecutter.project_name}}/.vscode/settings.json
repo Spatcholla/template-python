@@ -10,7 +10,7 @@
         "--max-line-length=88",
     ],
     "python.analysis.extraPaths": [
-        "template",
+        {{cookiecutter.package_name}},
         "tests"
     ]
 }
