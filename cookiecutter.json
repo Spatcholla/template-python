@@ -1,0 +1,12 @@
+{
+    "full_name": "Your Name",
+    "email": "you@yourdomain.com",
+    "github_username": "spatcholla",
+    "github_repo": "template-python-demo",
+    "default_branch": "main",
+    "project_name": "TemplateDemo",
+    "package_name": "demo",
+    "project_short_description": "Sample project generated from Spatcholla's Python Template.",
+    "python_major_version": 3,
+    "python_minor_version": 9
+}
