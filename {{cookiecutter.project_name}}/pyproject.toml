@@ -33,6 +33,7 @@ python = "^{{cookiecutter.python_major_version}}.{{cookiecutter.python_minor_ver
 # TODO: Remove these and add your library's requirements
 click = "^7.0"
 minilog = "^2.0"
+jupyter = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 
